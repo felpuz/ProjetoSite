@@ -26,6 +26,27 @@ body{
     cursor: pointer;
     transition: 0.3s;
     text-decoration: none;
+    
+}
+
+.a1:hover {
+    background-color: #555;
+}
+
+.botao{
+    background-color: #b8b8b8;
+    color: #000000; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-size: 1rem; 
+    transition: background-color 0.3s; 
+    font-family: "Shadows Into Light", cursive;
+}
+
+.botao:hover {
+    background-color: #555; 
 }
 
 .d2{
@@ -117,18 +138,6 @@ body{
     margin-bottom: 20px;
 }
 
-
-/*.parallax-image {
-    height: 100vh; /* A imagem ocupa a altura total da janela /
-    background-image: url('imagem/six.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: background-image 0.5s ease-in-out; /* Transição suave para troca de imagem */
-}
-
-/* Estilo do conteúdo abaixo da imagem de parallax */
 .content {
     padding: 20px;
     text-align: center;
@@ -149,4 +158,49 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+
+.corpo2{
+    color: #fff;
+    display: flex;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+
+.login{
+    width: 300px;
+    padding: 20px; 
+    background-color: #52525291;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.login label {
+    display: block; 
+    text-align: left; 
+    margin-bottom: 8px; 
+    color: #fff;
+    font-size: 130%;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
 }
