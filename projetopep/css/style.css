@@ -200,7 +200,11 @@ p {
     border-radius: 4px;
 }
 
-.button-container {
+.but{
     display: flex;
     justify-content: center; 
+}
+
+.lab{
+    margin-left: 50px;
 }
